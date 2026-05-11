@@ -94,14 +94,31 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'editorGuideSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Гайд по редактору',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'docSidebar',
+            sidebarId: 'editorHandbookSidebar',
+            position: 'left',
+            label: 'Элементы',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'communityToolsSidebar',
+            position: 'left',
+            label: 'Инструменты',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'speedrunSidebar',
+            position: 'left',
+            label: 'Спидраны',
+          },
+          {
+            href: 'https://github.com/cowmoonity/supercow-guide',
+            label: 'Код на GitHub',
             position: 'right',
           },
         ],
@@ -110,42 +127,29 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Документация',
             items: [
               {
-                label: 'Tutorial',
+                label: 'TODO', // TODO: сюда надо будет ссылки на страницы, которые должны будут быть первыми, наверное
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Сообщество',
             items: [
               {
                 label: 'Discord',
-                href: 'discord.supercow.community',
+                href: 'https://discord.supercow.community',
               },
               {
                 label: 'Speedrun.com',
-                href: 'speedrun.com/super_cow',
+                href: 'https://speedrun.com/super_cow',
               }
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Supercow Cowmoonity. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Supercow Cowmoonity. Сделано на Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
