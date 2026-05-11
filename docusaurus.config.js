@@ -69,6 +69,7 @@ const config = {
         //   onInlineAuthors: 'warn',
         //   onUntruncatedBlogPosts: 'warn',
         // },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
