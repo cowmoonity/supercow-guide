@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Supercow Guide Thingy',
   tagline: 'Nevomom Softent',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -86,10 +86,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'SCC',
+        title: 'SCC Guide',
         logo: {
           alt: 'Supercow Cowmoonity Logo',
-          src: 'img/logo.svg',
+          src: 'img/scc_logo.jpg',
         },
         items: [
           {
