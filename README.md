@@ -1,18 +1,16 @@
-# Website
+# Гайд по редактору и не только наверное
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+🔥👍
 
-## Installation
+## Как контрибьютить?
 
-```bash
-yarn
-```
+~~Системные требования~~ Пререквизиты
+- Node.js version 20.0 or above (which can be checked by running node -v)
+- docusaurus 3.10.1
 
-## Local Development
+## Локальный запуск
 
-```bash
-yarn start
-```
+`npm run start` в консоль запустит локальные сервер
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
